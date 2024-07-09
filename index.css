@@ -1,0 +1,46 @@
+.nav-link:hover{
+color: #4C061D !important;
+}
+.active{
+    color:#D17A22 !important; 
+}
+.animated-text {
+    overflow: hidden; /* Hides overflow of text */
+    white-space: nowrap; /* Prevents text from wrapping */
+    /* border-right: .15em solid orange; Blinking cursor effect */
+    animation: typing 3s steps(40, end), blink-caret .75s step-end infinite; /* Adjust animation properties as needed */
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+      color: white;
+    }
+    to {
+      width: 100%;
+      color: #D17A22;
+    }
+  }
+
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: white;
+    }
+  }
+@media (max-width: 768px) {
+  .container-fluid .text-light .text-center .p-4{
+    height: 20rem !important;
+  }
+}
+
+
+/* #changingText {
+  transition: color 0.5s linear;
+} */
+
+#readMore:active{
+  display: block;
+}
