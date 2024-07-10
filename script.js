@@ -49,7 +49,7 @@ function sendInfo(event) {
         user_phonenumber:  PhoneNumber,
         feedback:  textArea,
 }).then(function() {
-    alert("Mail sent successfully");
+    alert("Thank You");
 }).catch(function(error) {
     console.error("Error sending email:", error);
     alert("Error sending email");
@@ -100,7 +100,7 @@ function myFunction(event) {
         user_phonenumber:  Phonenumber,
         feedback:  TextArea,
 }).then(function() {
-    alert("Mail sent successfully");
+    alert("Thank You");
 }).catch(function(error) {
     console.error("Error sending email:", error);
     alert("Error sending email");
